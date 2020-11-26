@@ -34,7 +34,7 @@ namespace API.Models
                                 @Lead1, @Lead2, @Lead3, @Lead4, @Lead5, 
                                 @Comm1, @Comm2, @Comm3, @Comm4, @Comm5, 
                                 @Tech1, @Tech2, @Tech3, @Tech4, @Tech5, @LeadTotal, @CommTotal, @TechTotal, @OverallScore, @SurveyDate)";
-             cmd.Parameters.AddWithValue("@SurveyID", value.SurveyID);
+             //cmd.Parameters.AddWithValue("@SurveyID", value.SurveyID);
              cmd.Parameters.AddWithValue("@Employee_Reviewing", value.Employee_Reviewing);
              cmd.Parameters.AddWithValue("@Employee_Feedback", value.Employee_Feedback);
              cmd.Parameters.AddWithValue("@Lead1", value.Lead1);
