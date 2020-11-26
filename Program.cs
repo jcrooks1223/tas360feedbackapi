@@ -19,16 +19,16 @@ namespace API
     {
         public static void Main(string[] args)
         {
-            string cs = @"URI=file:C:\source\repos\TAS-360-Feedback\TAS\feedback1.db";
+            // string cs = @"URI=file:C:\source\repos\TAS-360-Feedback\TAS\feedback1.db";
         
 
-            using var con = new SQLiteConnection(cs);
-            con.Open();
+            // using var con = new SQLiteConnection(cs);
+            // con.Open();
 
-            string stm = "select SQLITE_VERSION()";
+            // string stm = "select SQLITE_VERSION()";
 
-            using var cmd = new SQLiteCommand(stm, con);
-            string version = cmd.ExecuteScalar().ToString();
+            // using var cmd = new SQLiteCommand(stm, con);
+            // string version = cmd.ExecuteScalar().ToString();
 
             //ISeedData saveObj = new SaveData();
             //saveObj.SeedData();
