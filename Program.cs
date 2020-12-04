@@ -30,8 +30,8 @@ namespace API
             // using var cmd = new SQLiteCommand(stm, con);
             // string version = cmd.ExecuteScalar().ToString();
 
-            //ISeedData saveObj = new SaveData();
-            //saveObj.SeedData();
+            ISeedData saveObj = new SaveData();
+            saveObj.SeedData();
 
 
 
